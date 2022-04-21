@@ -29,7 +29,7 @@ const Navbar = () => {
 					</Link>
 				</li>
 				<li className={styles.listItem}>
-					<Link href='/products/contact'>
+					<Link href='/contact'>
 						<a>CONTACT</a>
 					</Link>
 				</li>
