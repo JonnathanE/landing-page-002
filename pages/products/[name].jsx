@@ -1,3 +1,4 @@
+import Head from 'next/head';
 import Image from 'next/image';
 import Link from 'next/link';
 import { data } from '../../data';
@@ -6,6 +7,14 @@ import styles from '../../styles/Product.module.css';
 const Products = ({ product }) => {
 	return (
 		<div className={styles.container}>
+			<Head>
+				<title>Website Design Product {product.title} | JEDE</title>
+				<meta
+					name='description'
+					content='This is a practice page made by Jonnathan Espinoza'
+				/>
+				<link rel='icon' href='/favicon.ico' />
+			</Head>
 			<div className={styles.cardL}>
 				{product.images.map(img => (
 					<div key={img.id} className={styles.imgContainer}>

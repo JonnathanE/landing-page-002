@@ -1,9 +1,18 @@
+import Head from 'next/head';
 import Circle from '../components/Circle';
 import styles from '../styles/Contact.module.css';
 
 const contact = () => {
 	return (
 		<div className={styles.container}>
+			<Head>
+				<title>Website Design Contact | JEDE</title>
+				<meta
+					name='description'
+					content='This is a practice page made by Jonnathan Espinoza'
+				/>
+				<link rel='icon' href='/favicon.ico' />
+			</Head>
 			<Circle backgroundColor='green' left='-40vh' top='-20vh' />
 			<Circle backgroundColor='yellow' right='-30vh' bottom='-60vh' />
 			<h1 className={styles.title}>Get IN TOUCH</h1>
