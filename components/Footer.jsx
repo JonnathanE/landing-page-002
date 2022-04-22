@@ -21,7 +21,7 @@ const Footer = () => {
 					12 ADAM STREET NY <br /> USA
 				</div>
 				<div className={styles.cardItem}>
-					CONTACT@LAMA.DEV <br /> 123 4567 8909
+					CONTACT@JEDE.DEV <br /> 123 4567 8909
 				</div>
 			</div>
 			<div className={styles.cardS}>
@@ -29,7 +29,7 @@ const Footer = () => {
 					FOLLOW US: <br /> __FB__IN__BE__TW
 				</div>
 				<div className={styles.cardItem}>
-					© LAMA INTERACTIVE <br /> ALL RIGHTS RESERVED
+					© JEDE INTERACTIVE <br /> ALL RIGHTS RESERVED
 				</div>
 			</div>
 		</div>

@@ -16,10 +16,10 @@ const contact = () => {
 					name=''
 					id=''
 					rows='6'
-					className={styles.textarea}
+					className={styles.textArea}
 					placeholder='Message'
 				></textarea>
-				<button className={styles.buttonF}>SUBMIT</button>
+				<button className={styles.button}>SUBMIT</button>
 			</form>
 		</div>
 	);

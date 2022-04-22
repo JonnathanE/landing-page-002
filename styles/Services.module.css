@@ -74,3 +74,18 @@
     height: 100%;
     object-fit: cover;
 }
+
+@media screen and (max-width: 480px) {
+    .container {
+        padding: 20px;
+    }
+
+    .services {
+        justify-content: center;
+    }
+
+    .service {
+        width: 300px;
+        height: 300px;
+    }
+}
